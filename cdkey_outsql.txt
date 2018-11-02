@@ -1,0 +1,28 @@
+*****CDKEY创建时间：2018年10月29日 10:56:49*****
+===================CDKEY--SQL==================
+INSERT INTO cdkey_exchange(activity_id,cdkey) VALUES
+('AAXXAA', 'yj318102910b'),
+('AAXXAA', 'yj318102910r'),
+('AAXXAA', 'yj318102910w'),
+('AAXXAA', 'yj31810291a0'),
+('AAXXAA', 'yj31810291e0'),
+('AAXXAA', 'yj31810291f0'),
+('AAXXAA', 'yj31810291h0'),
+('AAXXAA', 'yj31810291j0'),
+('AAXXAA', 'yj31810291q0'),
+('AAXXAA', 'yj3181029d10'),
+('AAXXAA', 'yj3181029u10'),
+('AAXXAA', 'yj318102n910'),
+('AAXXAA', 'yj318102s910'),
+('AAXXAA', 'yj318102t910'),
+('AAXXAA', 'yj31810v2910'),
+('AAXXAA', 'yj3181c02910'),
+('AAXXAA', 'yj3181x02910'),
+('AAXXAA', 'yj3181y02910'),
+('AAXXAA', 'yj318z102910'),
+('AAXXAA', 'yj31g8102910'),
+('AAXXAA', 'yj31k8102910'),
+('AAXXAA', 'yj3i18102910'),
+('AAXXAA', 'yj3m18102910'),
+('AAXXAA', 'yj3p18102910');
+===================CDKEY--SQL==================

@@ -1,0 +1,3 @@
+#请在下面一行输入对应生成SQL语句
+SQL=INSERT INTO cdkey_exchange(activity_id,cdkey) VALUES ('AAXXAA', 'BBXXBB');
+#注：程序代码将"BBXXBB"自动替换为生成好的cdkey,"AAXXAA"表示活动ID,输出sql会提示是否输入
