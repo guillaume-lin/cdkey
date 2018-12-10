@@ -231,14 +231,14 @@ int main()
 	::remove(SQL_SAVE_FILE);
 
 	char strCreateTime[1024] = "";
-	::sprintf(strCreateTime, "*****CDKEY创建时间：%d年%2d月%2d日 %2d:%2d:%2d*****", pTime->tm_year + 1900, pTime->tm_mon + 1, pTime->tm_mday, pTime->tm_hour, pTime->tm_min, pTime->tm_sec);
+	//::sprintf(strCreateTime, "*****CDKEY创建时间：%d年%2d月%2d日 %2d:%2d:%2d*****", pTime->tm_year + 1900, pTime->tm_mon + 1, pTime->tm_mday, pTime->tm_hour, pTime->tm_min, pTime->tm_sec);
 
 	FILE* fp1 = ::fopen(SAVE_FILE, "wt");
 	if (NULL != fp1)
 	{
-		::fputs(strCreateTime, fp1);
-		::fputs("\n", fp1);
-		::fputs("===================CDKEY=================", fp1);
+		//::fputs(strCreateTime, fp1);
+		//::fputs("\n", fp1);
+		//::fputs("===================CDKEY=================", fp1);
 		MAP_STR::iterator iter = mapStrGet.begin();
 		for (; iter != mapStrGet.end(); ++iter)
 		{
@@ -247,7 +247,6 @@ int main()
 			::fputs(iter->first.c_str(), fp1);
 		}
 		::fputs("\n", fp1);
-		::fputs("===================CDKEY=================", fp1);
 		::fclose(fp1);
 	}
 	fp1 = NULL;
